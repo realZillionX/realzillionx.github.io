@@ -1,0 +1,90 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.55in]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+
+\setmainfont{Times New Roman}
+\setCJKmainfont{Songti SC}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=2em
+\setlist[itemize]{leftmargin=1.6em,itemsep=2pt,topsep=2pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\newcommand{\entry}[4]{
+  \textbf{#1} \hfill #2\\
+  \textit{#3}\\
+  #4
+}
+
+\newcommand{\smallentry}[3]{
+  \textbf{#1} \hfill #2\\
+  \textit{#3}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries HONGJI CHEN {\large 陈鸿基}}\\[6pt]
+  (+86) 139-2266-9419 $\diamond$
+  \href{mailto:hongjichen25@m.fudan.edu.cn}{hongjichen25@m.fudan.edu.cn} $\diamond$
+  \href{https://zillionx.github.io/}{Website} $\diamond$
+  \href{https://github.com/realZillionX}{GitHub} $\diamond$
+  \href{https://scholar.google.com/citations?user=N7Ytb68AAAAJ&hl=en}{Google Scholar}
+\end{center}
+
+\section*{Education}
+\smallentry{Fudan University, Shanghai}{Sept. 2025 -- Present}
+{Undergraduate Student}
+
+\vspace{3pt}
+\smallentry{Shanghai Innovation Institute and Fudan University, Shanghai}{Starting Fall 2029}
+{Incoming Ph.D. Student, advised by Prof. Xipeng Qiu}
+
+\section*{Honors and Awards}
+\begin{itemize}
+  \item Shanghai Innovation Institute Ph.D. Offer, Summer 2026
+  \item Youngest SII Ph.D. offer recipient up to Summer 2026
+\end{itemize}
+
+\section*{Research Interests}
+Multimodal reasoning, AI infrastructure, UMM (Unified Multimodal Models), VGM (Video Generation Models), and WAM (World Action Model).
+
+\section*{Publication}
+\begin{itemize}
+  \item \textbf{AI Can Learn Scientific Taste}\\
+  Jingqi Tong, Mingzhe Li, Hangcheng Li, Yongzhuo Yang, Yurong Mou, Weijie Ma, Zhiheng Xi,
+  \textbf{Hongji Chen}, Xiaoran Liu, Qinyuan Cheng, Ming Zhang, Qiguang Chen, Weifeng Ge,
+  Qipeng Guo, Tianlei Ying, Tianxiang Sun, Yining Zheng, Xinchi Chen, Jun Zhao, Ning Ding,
+  Xuanjing Huang, Yugang Jiang, Xipeng Qiu. \textit{arXiv preprint arXiv:2603.14473}, 2026.
+\end{itemize}
+
+\section*{Experiences}
+\smallentry{Shanghai Innovation Institute}{Jul. 2026 -- Present}
+{Research Intern, advised by Prof. Xipeng Qiu}
+
+\vspace{5pt}
+\smallentry{Fudan NLP Lab / OpenMOSS Team}{Oct. 2025 -- Present}
+{Research Intern, advised by Prof. Xipeng Qiu}
+
+\section*{Selected Projects}
+\entry{Shanghai Innovation Institute Research Cockpit}{2026 -- Present}
+{Major participant}
+{Full-process agentic research operating system for organized research, upgrading AI from stage-specific assistance to automated literature search, idea generation and evaluation, research-plan generation from goals, execution tracking, iterative verification, and lifecycle management. InspireSkill is a concrete outcome of this project, providing reusable skills and tool interfaces for agents to operate the Inspire compute platform through reproducible workflows.}
+
+\section*{Skills}
+\textbf{Programming:} Python, C/C++, Bash, Git, \LaTeX\\
+\textbf{Frameworks and Tools:} PyTorch, Hugging Face Transformers, Linux, agent workflow infrastructure\\
+\textbf{Research:} UMM (Unified Multimodal Models), VGM (Video Generation Models), WAM (World Action Model), AI research systems
+
+\end{document}

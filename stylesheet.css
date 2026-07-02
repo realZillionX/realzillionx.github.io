@@ -1,0 +1,362 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.38;
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.page-table {
+  width: 100%;
+  max-width: 800px;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-cell {
+  padding: 0;
+}
+
+.intro-table,
+.section-heading,
+.item-table,
+.footer-table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro-copy {
+  padding: 2.5%;
+  width: 63%;
+  vertical-align: middle;
+}
+
+.intro-photo-cell {
+  padding: 2.5%;
+  width: 37%;
+  max-width: 37%;
+  vertical-align: middle;
+}
+
+.name {
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+.section-divider {
+  border-top: 1px solid #8f8f8f;
+  height: 0;
+  margin: 12px 0 9px 0;
+}
+
+.section-heading td {
+  padding: 16px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.item-table {
+  border-spacing: 0 10px;
+}
+
+.item-table tr {
+  vertical-align: middle;
+}
+
+.thumb-cell {
+  padding: 16px;
+  width: 35%;
+  vertical-align: middle;
+}
+
+.detail-cell {
+  padding: 8px;
+  width: 65%;
+  vertical-align: middle;
+}
+
+.detail-cell p {
+  margin-bottom: 0;
+}
+
+.teaser {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  display: block;
+}
+
+.project-logo {
+  width: 118%;
+  max-width: none;
+  margin-left: -9%;
+}
+
+.papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.experience-table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0 6px;
+  border-collapse: separate;
+  table-layout: fixed;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.experience-logo-cell {
+  padding: 4px 28px 4px 16px;
+  width: 20%;
+  height: 45px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.experience-logo {
+  max-width: 118px;
+  max-height: 54px;
+  width: auto;
+  height: auto;
+}
+
+.wide-logo {
+  max-width: 142px;
+}
+
+.experience-detail {
+  padding: 4px 8px 4px 20px;
+  width: 80%;
+  vertical-align: middle;
+  line-height: 1.45;
+}
+
+.footer {
+  text-align: center;
+  font-size: small;
+}
+
+@media (max-width: 640px) {
+  .page-table,
+  .page-table tbody,
+  .page-table tr,
+  .page-table td {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .page-cell {
+    overflow-x: hidden;
+  }
+
+  .intro-table,
+  .intro-table tbody,
+  .intro-table tr,
+  .intro-table td,
+  .item-table,
+  .item-table tbody,
+  .item-table tr,
+  .item-table td {
+    display: block;
+    width: auto;
+    max-width: none;
+  }
+
+  .intro-copy,
+  .intro-photo-cell,
+  .thumb-cell,
+  .detail-cell {
+    padding: 16px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .name {
+    font-size: 28px;
+    padding-top: 8px;
+  }
+
+  .profile-photo {
+    width: 164px;
+    height: 164px;
+  }
+
+  .thumb-cell {
+    padding-bottom: 4px;
+  }
+
+  .detail-cell {
+    padding-top: 6px;
+  }
+
+  .experience-logo-cell {
+    width: 100%;
+    height: auto;
+    padding: 10px 16px 2px 16px;
+    display: block;
+  }
+
+  .experience-detail {
+    width: 100%;
+    padding: 2px 16px 14px 16px;
+    display: block;
+  }
+
+  .section-heading td {
+    padding: 16px;
+  }
+
+  .teaser {
+    max-width: 100%;
+  }
+
+  .project-logo {
+    width: 106%;
+    margin-left: -3%;
+  }
+
+  .experience-table,
+  .experience-table tbody,
+  .experience-table tr,
+  .experience-table td {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .experience-logo {
+    display: block;
+    margin: 0 auto;
+  }
+}
